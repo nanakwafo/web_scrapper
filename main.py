@@ -10,10 +10,11 @@ for job in jobs:
     if 'few' in published_date:
         company_name = job.find('h3',class_='joblist-comp-name').text
         skills = job.find('span',class_='srp-skills').text
-        
+        more_info = job.header.h2.a['href']
         print(f'Company Name: {company_name.strip()}')
         print(f'Required Skills: {skills.strip()}')
         print(f'Published Date: {published_date.strip()}')
+        print(f'More Info: {more_info}')
         print('')
 # with open('home.html','r')  as  html_file:
 #     content = html_file.read()
