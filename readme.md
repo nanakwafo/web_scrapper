@@ -1,27 +1,41 @@
+
 # Web Scapper that scraps off the Times Jobs Website for the latest jobs
 
-This get all the latest jobs from the Times Jobs Website and saves them in a text file.
+This get all the latest jobs from the Times Jobs Website and saves them in a text file every 1 minute.
 
 
-## Authors
+## Requirement
 
-- [@nanakwafomensah](https://github.com/nanakwafo/web_scrapper)
+Ensure Docker is installed and running
 
 
-## Deployment
+## Test
 
 To deploy this project run
 
+1. Go into the repository directory
 ```bash
- 1. cd web_scrapper
+ cd web_scrapper
 ```
+2. create the docker image with  the command below
 ```bash
- 2. docker build -t scrapper . 
+ docker build -t scrapper . 
 ```
+3. Verify the image has been created successfully
 ```bash
- 3. docker run scrapper 
+ docker images 
+```
+4. Run the container using the scrapper image in interractive mode
+```bash
+ docker run  -it scrapper 
 ```
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Author
+
+- [@nanakwafomensah](https://github.com/nanakwafo/web_scrapper)
+
