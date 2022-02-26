@@ -1,7 +1,7 @@
 
 # Web Scapper that scraps off the Times Jobs Website for the latest jobs
 
-This get all the latest jobs from the Times Jobs Website and saves them in a text file every 1 minute.
+This get all the latest jobs from the Times Jobs Website and saves them in a text file.
 
 
 ## Requirement
@@ -9,7 +9,7 @@ This get all the latest jobs from the Times Jobs Website and saves them in a tex
 Ensure Docker is installed and running
 
 
-## Test
+## Test On Local Environment
 
 To deploy this project run
 
@@ -38,4 +38,11 @@ To deploy this project run
 ## Author
 
 - [@nanakwafomensah](https://github.com/nanakwafo/web_scrapper)
+
+
+## Roadmap
+
+- Deploy a Docker App to AWS using Elastic Container Service (ECS
+
+
 
